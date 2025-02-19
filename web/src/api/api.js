@@ -14,7 +14,7 @@ import service from '@/utils/request'
 // }
 export const getApiList = (data) => {
   return service({
-    url: '/api/getApiList',
+    url: '/sspaas/v2/api/getApiList',
     method: 'post',
     data
   })
@@ -30,7 +30,7 @@ export const getApiList = (data) => {
 // @Router /api/createApi [post]
 export const createApi = (data) => {
   return service({
-    url: '/api/createApi',
+    url: '/sspaas/v2/api/createApi',
     method: 'post',
     data
   })
@@ -46,7 +46,7 @@ export const createApi = (data) => {
 // @Router /menu/getApiById [post]
 export const getApiById = (data) => {
   return service({
-    url: '/api/getApiById',
+    url: '/sspaas/v2/api/getApiById',
     method: 'post',
     data
   })
@@ -62,7 +62,7 @@ export const getApiById = (data) => {
 // @Router /api/updateApi [post]
 export const updateApi = (data) => {
   return service({
-    url: '/api/updateApi',
+    url: '/sspaas/v2/api/updateApi',
     method: 'post',
     data
   })
@@ -78,7 +78,7 @@ export const updateApi = (data) => {
 // @Router /api/setAuthApi [post]
 export const setAuthApi = (data) => {
   return service({
-    url: '/api/setAuthApi',
+    url: '/sspaas/v2/api/setAuthApi',
     method: 'post',
     data
   })
@@ -93,7 +93,7 @@ export const setAuthApi = (data) => {
 // @Router /api/getAllApis [post]
 export const getAllApis = (data) => {
   return service({
-    url: '/api/getAllApis',
+    url: '/sspaas/v2/api/getAllApis',
     method: 'post',
     data
   })
@@ -109,7 +109,7 @@ export const getAllApis = (data) => {
 // @Router /api/deleteApi [post]
 export const deleteApi = (data) => {
   return service({
-    url: '/api/deleteApi',
+    url: '/sspaas/v2/api/deleteApi',
     method: 'post',
     data
   })
@@ -125,7 +125,7 @@ export const deleteApi = (data) => {
 // @Router /api/deleteApisByIds [delete]
 export const deleteApisByIds = (data) => {
   return service({
-    url: '/api/deleteApisByIds',
+    url: '/sspaas/v2/api/deleteApisByIds',
     method: 'delete',
     data
   })
@@ -140,28 +140,28 @@ export const deleteApisByIds = (data) => {
 // @Router    /api/freshCasbin [get]
 export const freshCasbin = () => {
   return service({
-    url: '/api/freshCasbin',
+    url: '/sspaas/v2/api/freshCasbin',
     method: 'get'
   })
 }
 
 export const syncApi = () => {
   return service({
-    url: '/api/syncApi',
+    url: '/sspaas/v2/api/syncApi',
     method: 'get'
   })
 }
 
 export const getApiGroups = () => {
   return service({
-    url: '/api/getApiGroups',
+    url: '/sspaas/v2/api/getApiGroups',
     method: 'get'
   })
 }
 
 export const ignoreApi = (data) => {
   return service({
-    url: '/api/ignoreApi',
+    url: '/sspaas/v2/api/ignoreApi',
     method: 'post',
     data
   })
@@ -169,7 +169,7 @@ export const ignoreApi = (data) => {
 
 export const enterSyncApi = (data) => {
   return service({
-    url: '/api/enterSyncApi',
+    url: '/sspaas/v2/api/enterSyncApi',
     method: 'post',
     data
   })

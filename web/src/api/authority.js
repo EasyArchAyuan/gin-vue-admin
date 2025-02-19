@@ -2,7 +2,7 @@ import service from '@/utils/request'
 // @Router /authority/getAuthorityList [post]
 export const getAuthorityList = (data) => {
   return service({
-    url: '/authority/getAuthorityList',
+    url: '/sspaas/v2/authority/getAuthorityList',
     method: 'post',
     data
   })
@@ -17,7 +17,7 @@ export const getAuthorityList = (data) => {
 // @Router /authority/deleteAuthority [post]
 export const deleteAuthority = (data) => {
   return service({
-    url: '/authority/deleteAuthority',
+    url: '/sspaas/v2/authority/deleteAuthority',
     method: 'post',
     data
   })
@@ -32,7 +32,7 @@ export const deleteAuthority = (data) => {
 // @Router /authority/createAuthority [post]
 export const createAuthority = (data) => {
   return service({
-    url: '/authority/createAuthority',
+    url: '/sspaas/v2/authority/createAuthority',
     method: 'post',
     data
   })
@@ -48,7 +48,7 @@ export const createAuthority = (data) => {
 // @Router /authority/copyAuthority [post]
 export const copyAuthority = (data) => {
   return service({
-    url: '/authority/copyAuthority',
+    url: '/sspaas/v2/authority/copyAuthority',
     method: 'post',
     data
   })
@@ -63,7 +63,7 @@ export const copyAuthority = (data) => {
 // @Router /authority/setDataAuthority [post]
 export const setDataAuthority = (data) => {
   return service({
-    url: '/authority/setDataAuthority',
+    url: '/sspaas/v2/authority/setDataAuthority',
     method: 'post',
     data
   })
@@ -78,7 +78,7 @@ export const setDataAuthority = (data) => {
 // @Router /authority/setDataAuthority [post]
 export const updateAuthority = (data) => {
   return service({
-    url: '/authority/updateAuthority',
+    url: '/sspaas/v2/authority/updateAuthority',
     method: 'put',
     data
   })

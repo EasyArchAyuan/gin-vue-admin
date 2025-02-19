@@ -2,7 +2,7 @@ import service from '@/utils/request'
 
 export const getAuthorityBtnApi = (data) => {
   return service({
-    url: '/authorityBtn/getAuthorityBtn',
+    url: '/sspaas/v2/authorityBtn/getAuthorityBtn',
     method: 'post',
     data
   })
@@ -10,7 +10,7 @@ export const getAuthorityBtnApi = (data) => {
 
 export const setAuthorityBtnApi = (data) => {
   return service({
-    url: '/authorityBtn/setAuthorityBtn',
+    url: '/sspaas/v2/authorityBtn/setAuthorityBtn',
     method: 'post',
     data
   })
@@ -18,7 +18,7 @@ export const setAuthorityBtnApi = (data) => {
 
 export const canRemoveAuthorityBtnApi = (params) => {
   return service({
-    url: '/authorityBtn/canRemoveAuthorityBtn',
+    url: '/sspaas/v2/authorityBtn/canRemoveAuthorityBtn',
     method: 'post',
     params
   })

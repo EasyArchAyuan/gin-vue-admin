@@ -9,7 +9,7 @@ import service from '@/utils/request'
 // @Router /casbin/UpdateCasbin [post]
 export const UpdateCasbin = (data) => {
   return service({
-    url: '/casbin/updateCasbin',
+    url: '/sspaas/v2/casbin/updateCasbin',
     method: 'post',
     data
   })
@@ -25,7 +25,7 @@ export const UpdateCasbin = (data) => {
 // @Router /casbin/getPolicyPathByAuthorityId [post]
 export const getPolicyPathByAuthorityId = (data) => {
   return service({
-    url: '/casbin/getPolicyPathByAuthorityId',
+    url: '/sspaas/v2/casbin/getPolicyPathByAuthorityId',
     method: 'post',
     data
   })

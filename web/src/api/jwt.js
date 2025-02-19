@@ -8,7 +8,7 @@ import service from '@/utils/request'
 // @Router /jwt/jsonInBlacklist [post]
 export const jsonInBlacklist = () => {
   return service({
-    url: '/jwt/jsonInBlacklist',
+    url: '/sspaas/v2/jwt/jsonInBlacklist',
     method: 'post'
   })
 }

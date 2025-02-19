@@ -7,7 +7,7 @@ import service from '@/utils/request'
 // @Router /system/getSystemConfig [post]
 export const getSystemConfig = () => {
   return service({
-    url: '/system/getSystemConfig',
+    url: '/sspaas/v2/system/getSystemConfig',
     method: 'post'
   })
 }
@@ -21,7 +21,7 @@ export const getSystemConfig = () => {
 // @Router /system/setSystemConfig [post]
 export const setSystemConfig = (data) => {
   return service({
-    url: '/system/setSystemConfig',
+    url: '/sspaas/v2/system/setSystemConfig',
     method: 'post',
     data
   })
@@ -35,7 +35,7 @@ export const setSystemConfig = (data) => {
 // @Router /system/getServerInfo [post]
 export const getSystemState = () => {
   return service({
-    url: '/system/getServerInfo',
+    url: '/sspaas/v2/system/getServerInfo',
     method: 'post',
     donNotShowLoading: true
   })
@@ -48,7 +48,7 @@ export const getSystemState = () => {
  */
 export const reloadSystem = (data) => {
   return service({
-    url: '/system/reloadSystem',
+    url: '/sspaas/v2/system/reloadSystem',
     method: 'post',
     data
   })

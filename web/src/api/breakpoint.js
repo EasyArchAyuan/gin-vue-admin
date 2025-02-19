@@ -9,7 +9,7 @@ import service from '@/utils/request'
 
 export const findFile = (params) => {
   return service({
-    url: '/fileUploadAndDownload/findFile',
+    url: '/sspaas/v2/fileUploadAndDownload/findFile',
     method: 'get',
     params
   })
@@ -17,7 +17,7 @@ export const findFile = (params) => {
 
 export const breakpointContinue = (data) => {
   return service({
-    url: '/fileUploadAndDownload/breakpointContinue',
+    url: '/sspaas/v2/fileUploadAndDownload/breakpointContinue',
     method: 'post',
     donNotShowLoading: true,
     headers: { 'Content-Type': 'multipart/form-data' },
@@ -27,7 +27,7 @@ export const breakpointContinue = (data) => {
 
 export const breakpointContinueFinish = (params) => {
   return service({
-    url: '/fileUploadAndDownload/breakpointContinueFinish',
+    url: '/sspaas/v2/fileUploadAndDownload/breakpointContinueFinish',
     method: 'post',
     params
   })
@@ -35,7 +35,7 @@ export const breakpointContinueFinish = (params) => {
 
 export const removeChunk = (data, params) => {
   return service({
-    url: '/fileUploadAndDownload/removeChunk',
+    url: '/sspaas/v2/fileUploadAndDownload/removeChunk',
     method: 'post',
     data,
     params

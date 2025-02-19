@@ -9,7 +9,7 @@ import service from '@/utils/request'
 // @Router /sysOperationRecord/deleteSysOperationRecord [delete]
 export const deleteSysOperationRecord = (data) => {
   return service({
-    url: '/sysOperationRecord/deleteSysOperationRecord',
+    url: '/sspaas/v2/sysOperationRecord/deleteSysOperationRecord',
     method: 'delete',
     data
   })
@@ -25,7 +25,7 @@ export const deleteSysOperationRecord = (data) => {
 // @Router /sysOperationRecord/deleteSysOperationRecord [delete]
 export const deleteSysOperationRecordByIds = (data) => {
   return service({
-    url: '/sysOperationRecord/deleteSysOperationRecordByIds',
+    url: '/sspaas/v2/sysOperationRecord/deleteSysOperationRecordByIds',
     method: 'delete',
     data
   })
@@ -41,7 +41,7 @@ export const deleteSysOperationRecordByIds = (data) => {
 // @Router /sysOperationRecord/getSysOperationRecordList [get]
 export const getSysOperationRecordList = (params) => {
   return service({
-    url: '/sysOperationRecord/getSysOperationRecordList',
+    url: '/sspaas/v2/sysOperationRecord/getSysOperationRecordList',
     method: 'get',
     params
   })

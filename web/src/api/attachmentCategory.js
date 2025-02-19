@@ -2,7 +2,7 @@ import service from '@/utils/request'
 // 分类列表
 export const getCategoryList = () => {
     return service({
-        url: '/attachmentCategory/getCategoryList',
+        url: '/sspaas/v2/attachmentCategory/getCategoryList',
         method: 'get',
     })
 }
@@ -10,7 +10,7 @@ export const getCategoryList = () => {
 // 添加/编辑分类
 export const addCategory = (data) => {
     return service({
-        url: '/attachmentCategory/addCategory',
+        url: '/sspaas/v2/attachmentCategory/addCategory',
         method: 'post',
         data
     })
@@ -19,7 +19,7 @@ export const addCategory = (data) => {
 // 删除分类
 export const deleteCategory = (data) => {
     return service({
-        url: '/attachmentCategory/deleteCategory',
+        url: '/sspaas/v2/attachmentCategory/deleteCategory',
         method: 'post',
         data
     })

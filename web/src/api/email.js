@@ -7,7 +7,7 @@ import service from '@/utils/request'
 // @Router /email/emailTest [post]
 export const emailTest = (data) => {
   return service({
-    url: '/email/emailTest',
+    url: '/sspaas/v2/email/emailTest',
     method: 'post',
     data
   })

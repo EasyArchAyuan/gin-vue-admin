@@ -9,7 +9,7 @@ import service from '@/utils/request'
 // @Router /sysParams/createSysParams [post]
 export const createSysParams = (data) => {
   return service({
-    url: '/sysParams/createSysParams',
+    url: '/sspaas/v2/sysParams/createSysParams',
     method: 'post',
     data
   })
@@ -25,7 +25,7 @@ export const createSysParams = (data) => {
 // @Router /sysParams/deleteSysParams [delete]
 export const deleteSysParams = (params) => {
   return service({
-    url: '/sysParams/deleteSysParams',
+    url: '/sspaas/v2/sysParams/deleteSysParams',
     method: 'delete',
     params
   })
@@ -41,7 +41,7 @@ export const deleteSysParams = (params) => {
 // @Router /sysParams/deleteSysParams [delete]
 export const deleteSysParamsByIds = (params) => {
   return service({
-    url: '/sysParams/deleteSysParamsByIds',
+    url: '/sspaas/v2/sysParams/deleteSysParamsByIds',
     method: 'delete',
     params
   })
@@ -57,7 +57,7 @@ export const deleteSysParamsByIds = (params) => {
 // @Router /sysParams/updateSysParams [put]
 export const updateSysParams = (data) => {
   return service({
-    url: '/sysParams/updateSysParams',
+    url: '/sspaas/v2/sysParams/updateSysParams',
     method: 'put',
     data
   })
@@ -73,7 +73,7 @@ export const updateSysParams = (data) => {
 // @Router /sysParams/findSysParams [get]
 export const findSysParams = (params) => {
   return service({
-    url: '/sysParams/findSysParams',
+    url: '/sspaas/v2/sysParams/findSysParams',
     method: 'get',
     params
   })
@@ -89,7 +89,7 @@ export const findSysParams = (params) => {
 // @Router /sysParams/getSysParamsList [get]
 export const getSysParamsList = (params) => {
   return service({
-    url: '/sysParams/getSysParamsList',
+    url: '/sspaas/v2/sysParams/getSysParamsList',
     method: 'get',
     params
   })
@@ -104,7 +104,7 @@ export const getSysParamsList = (params) => {
 // @Router /sysParams/getSysParam [get]
 export const getSysParam = (params) => {
   return service({
-    url: '/sysParams/getSysParam',
+    url: '/sspaas/v2/sysParams/getSysParam',
     method: 'get',
     params
   })

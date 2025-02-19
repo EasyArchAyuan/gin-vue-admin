@@ -9,7 +9,7 @@ import service from '@/utils/request'
 // @Router /fileUploadAndDownload/getFileList [post]
 export const getFileList = (data) => {
   return service({
-    url: '/fileUploadAndDownload/getFileList',
+    url: '/sspaas/v2/fileUploadAndDownload/getFileList',
     method: 'post',
     data
   })
@@ -24,7 +24,7 @@ export const getFileList = (data) => {
 // @Router /fileUploadAndDownload/deleteFile [post]
 export const deleteFile = (data) => {
   return service({
-    url: '/fileUploadAndDownload/deleteFile',
+    url: '/sspaas/v2/fileUploadAndDownload/deleteFile',
     method: 'post',
     data
   })
@@ -37,7 +37,7 @@ export const deleteFile = (data) => {
  */
 export const editFileName = (data) => {
   return service({
-    url: '/fileUploadAndDownload/editFileName',
+    url: '/sspaas/v2/fileUploadAndDownload/editFileName',
     method: 'post',
     data
   })
@@ -50,7 +50,7 @@ export const editFileName = (data) => {
  */
 export const importURL = (data) => {
   return service({
-    url: '/fileUploadAndDownload/importURL',
+    url: '/sspaas/v2/fileUploadAndDownload/importURL',
     method: 'post',
     data
   })
@@ -60,7 +60,7 @@ export const importURL = (data) => {
 // 上传文件 暂时用于头像上传
 export const uploadFile = (data) => {
   return service({
-    url: "/fileUploadAndDownload/upload",
+    url: "/sspaas/v2/fileUploadAndDownload/upload",
     method: "post",
     data,
   });

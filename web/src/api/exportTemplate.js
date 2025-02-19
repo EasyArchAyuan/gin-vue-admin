@@ -10,7 +10,7 @@ import service from '@/utils/request'
 // @Router /sysExportTemplate/createSysExportTemplate [post]
 export const createSysExportTemplate = (data) => {
   return service({
-    url: '/sysExportTemplate/createSysExportTemplate',
+    url: '/sspaas/v2/sysExportTemplate/createSysExportTemplate',
     method: 'post',
     data
   })
@@ -26,7 +26,7 @@ export const createSysExportTemplate = (data) => {
 // @Router /sysExportTemplate/deleteSysExportTemplate [delete]
 export const deleteSysExportTemplate = (data) => {
   return service({
-    url: '/sysExportTemplate/deleteSysExportTemplate',
+    url: '/sspaas/v2/sysExportTemplate/deleteSysExportTemplate',
     method: 'delete',
     data
   })
@@ -42,7 +42,7 @@ export const deleteSysExportTemplate = (data) => {
 // @Router /sysExportTemplate/deleteSysExportTemplate [delete]
 export const deleteSysExportTemplateByIds = (data) => {
   return service({
-    url: '/sysExportTemplate/deleteSysExportTemplateByIds',
+    url: '/sspaas/v2/sysExportTemplate/deleteSysExportTemplateByIds',
     method: 'delete',
     data
   })
@@ -58,7 +58,7 @@ export const deleteSysExportTemplateByIds = (data) => {
 // @Router /sysExportTemplate/updateSysExportTemplate [put]
 export const updateSysExportTemplate = (data) => {
   return service({
-    url: '/sysExportTemplate/updateSysExportTemplate',
+    url: '/sspaas/v2/sysExportTemplate/updateSysExportTemplate',
     method: 'put',
     data
   })
@@ -74,7 +74,7 @@ export const updateSysExportTemplate = (data) => {
 // @Router /sysExportTemplate/findSysExportTemplate [get]
 export const findSysExportTemplate = (params) => {
   return service({
-    url: '/sysExportTemplate/findSysExportTemplate',
+    url: '/sspaas/v2/sysExportTemplate/findSysExportTemplate',
     method: 'get',
     params
   })
@@ -90,7 +90,7 @@ export const findSysExportTemplate = (params) => {
 // @Router /sysExportTemplate/getSysExportTemplateList [get]
 export const getSysExportTemplateList = (params) => {
   return service({
-    url: '/sysExportTemplate/getSysExportTemplateList',
+    url: '/sspaas/v2/sysExportTemplate/getSysExportTemplateList',
     method: 'get',
     params
   })

@@ -9,7 +9,7 @@ import service from '@/utils/request'
 // @Router /customer/customer [post]
 export const createExaCustomer = (data) => {
   return service({
-    url: '/customer/customer',
+    url: '/sspaas/v2/customer/customer',
     method: 'post',
     data
   })
@@ -25,7 +25,7 @@ export const createExaCustomer = (data) => {
 // @Router /customer/customer [put]
 export const updateExaCustomer = (data) => {
   return service({
-    url: '/customer/customer',
+    url: '/sspaas/v2/customer/customer',
     method: 'put',
     data
   })
@@ -41,7 +41,7 @@ export const updateExaCustomer = (data) => {
 // @Router /customer/customer [delete]
 export const deleteExaCustomer = (data) => {
   return service({
-    url: '/customer/customer',
+    url: '/sspaas/v2/customer/customer',
     method: 'delete',
     data
   })
@@ -57,7 +57,7 @@ export const deleteExaCustomer = (data) => {
 // @Router /customer/customer [get]
 export const getExaCustomer = (params) => {
   return service({
-    url: '/customer/customer',
+    url: '/sspaas/v2/customer/customer',
     method: 'get',
     params
   })
@@ -73,7 +73,7 @@ export const getExaCustomer = (params) => {
 // @Router /customer/customerList [get]
 export const getExaCustomerList = (params) => {
   return service({
-    url: '/customer/customerList',
+    url: '/sspaas/v2/customer/customerList',
     method: 'get',
     params
   })

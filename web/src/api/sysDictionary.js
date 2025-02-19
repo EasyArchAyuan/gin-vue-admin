@@ -9,7 +9,7 @@ import service from '@/utils/request'
 // @Router /sysDictionary/createSysDictionary [post]
 export const createSysDictionary = (data) => {
   return service({
-    url: '/sysDictionary/createSysDictionary',
+    url: '/sspaas/v2/sysDictionary/createSysDictionary',
     method: 'post',
     data
   })
@@ -25,7 +25,7 @@ export const createSysDictionary = (data) => {
 // @Router /sysDictionary/deleteSysDictionary [delete]
 export const deleteSysDictionary = (data) => {
   return service({
-    url: '/sysDictionary/deleteSysDictionary',
+    url: '/sspaas/v2/sysDictionary/deleteSysDictionary',
     method: 'delete',
     data
   })
@@ -41,7 +41,7 @@ export const deleteSysDictionary = (data) => {
 // @Router /sysDictionary/updateSysDictionary [put]
 export const updateSysDictionary = (data) => {
   return service({
-    url: '/sysDictionary/updateSysDictionary',
+    url: '/sspaas/v2/sysDictionary/updateSysDictionary',
     method: 'put',
     data
   })
@@ -57,7 +57,7 @@ export const updateSysDictionary = (data) => {
 // @Router /sysDictionary/findSysDictionary [get]
 export const findSysDictionary = (params) => {
   return service({
-    url: '/sysDictionary/findSysDictionary',
+    url: '/sspaas/v2/sysDictionary/findSysDictionary',
     method: 'get',
     params
   })
@@ -73,7 +73,7 @@ export const findSysDictionary = (params) => {
 // @Router /sysDictionary/getSysDictionaryList [get]
 export const getSysDictionaryList = (params) => {
   return service({
-    url: '/sysDictionary/getSysDictionaryList',
+    url: '/sspaas/v2/sysDictionary/getSysDictionaryList',
     method: 'get',
     params
   })

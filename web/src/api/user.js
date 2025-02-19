@@ -5,7 +5,7 @@ import service from '@/utils/request'
 // @Router /base/login [post]
 export const login = (data) => {
   return service({
-    url: '/base/login',
+    url: '/sspaas/v2/base/login',
     method: 'post',
     data: data
   })
@@ -17,7 +17,7 @@ export const login = (data) => {
 // @Router /base/captcha [post]
 export const captcha = () => {
   return service({
-    url: '/base/captcha',
+    url: '/sspaas/v2/base/captcha',
     method: 'post'
   })
 }
@@ -28,7 +28,7 @@ export const captcha = () => {
 // @Router /base/resige [post]
 export const register = (data) => {
   return service({
-    url: '/user/admin_register',
+    url: '/sspaas/v2/user/admin_register',
     method: 'post',
     data: data
   })
@@ -40,7 +40,7 @@ export const register = (data) => {
 // @Router /user/changePassword [post]
 export const changePassword = (data) => {
   return service({
-    url: '/user/changePassword',
+    url: '/sspaas/v2/user/changePassword',
     method: 'post',
     data: data
   })
@@ -56,7 +56,7 @@ export const changePassword = (data) => {
 // @Router /user/getUserList [post]
 export const getUserList = (data) => {
   return service({
-    url: '/user/getUserList',
+    url: '/sspaas/v2/user/getUserList',
     method: 'post',
     data: data
   })
@@ -72,7 +72,7 @@ export const getUserList = (data) => {
 // @Router /user/setUserAuthority [post]
 export const setUserAuthority = (data) => {
   return service({
-    url: '/user/setUserAuthority',
+    url: '/sspaas/v2/user/setUserAuthority',
     method: 'post',
     data: data
   })
@@ -88,7 +88,7 @@ export const setUserAuthority = (data) => {
 // @Router /user/deleteUser [delete]
 export const deleteUser = (data) => {
   return service({
-    url: '/user/deleteUser',
+    url: '/sspaas/v2/user/deleteUser',
     method: 'delete',
     data: data
   })
@@ -104,7 +104,7 @@ export const deleteUser = (data) => {
 // @Router /user/setUserInfo [put]
 export const setUserInfo = (data) => {
   return service({
-    url: '/user/setUserInfo',
+    url: '/sspaas/v2/user/setUserInfo',
     method: 'put',
     data: data
   })
@@ -120,7 +120,7 @@ export const setUserInfo = (data) => {
 // @Router /user/setSelfInfo [put]
 export const setSelfInfo = (data) => {
   return service({
-    url: '/user/setSelfInfo',
+    url: '/sspaas/v2/user/setSelfInfo',
     method: 'put',
     data: data
   })
@@ -136,7 +136,7 @@ export const setSelfInfo = (data) => {
 // @Router /user/setSelfSetting [put]
 export const setSelfSetting = (data) => {
   return service({
-    url: '/user/setSelfSetting',
+    url: '/sspaas/v2/user/setSelfSetting',
     method: 'put',
     data: data
   })
@@ -152,7 +152,7 @@ export const setSelfSetting = (data) => {
 // @Router /user/setUserAuthorities [post]
 export const setUserAuthorities = (data) => {
   return service({
-    url: '/user/setUserAuthorities',
+    url: '/sspaas/v2/user/setUserAuthorities',
     method: 'post',
     data: data
   })
@@ -167,14 +167,14 @@ export const setUserAuthorities = (data) => {
 // @Router /user/getUserInfo [get]
 export const getUserInfo = () => {
   return service({
-    url: '/user/getUserInfo',
+    url: '/sspaas/v2/user/getUserInfo',
     method: 'get'
   })
 }
 
 export const resetPassword = (data) => {
   return service({
-    url: '/user/resetPassword',
+    url: '/sspaas/v2/user/resetPassword',
     method: 'post',
     data: data
   })

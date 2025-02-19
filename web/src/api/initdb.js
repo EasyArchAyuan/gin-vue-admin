@@ -7,7 +7,7 @@ import service from '@/utils/request'
 // @Router /init/initdb [post]
 export const initDB = (data) => {
   return service({
-    url: '/init/initdb',
+    url: '/sspaas/v2/init/initdb',
     method: 'post',
     data,
     donNotShowLoading: true
@@ -21,7 +21,7 @@ export const initDB = (data) => {
 // @Router /init/checkdb [post]
 export const checkDB = () => {
   return service({
-    url: '/init/checkdb',
+    url: '/sspaas/v2/init/checkdb',
     method: 'post'
   })
 }
